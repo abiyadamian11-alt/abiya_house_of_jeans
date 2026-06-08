@@ -1,0 +1,112 @@
+body{
+    font-family: Arial;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+/* CENTER SYSTEM */
+.center-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* BOX */
+.center-box{
+    background: white;
+    padding: 25px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.search-box{
+    text-align:center;
+    margin:20px;
+}
+
+.search-box input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+}
+
+.search-box button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    background: #025a83;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.search-box button:hover{
+    background: #0863a0;
+}
+
+/* INPUTS */
+input{
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* BUTTON */
+button{
+    width: 95%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: green;
+}
+
+/* LINKS (dashboard buttons) */
+a{
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover{
+    background: rgb(4, 175, 90);
+}
+
+/* TABLE DESIGN */
+table{
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 0px 10px gray;
+}
+
+th{
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background: #f2f2f2;
+}
